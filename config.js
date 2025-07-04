@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~HJVBRRQD#C4AR_5UxWoL-1LXcm9_7fLkMXqVOZv0tlB6A5_SIeao",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
@@ -15,7 +15,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ANONYMOUS 👻*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
@@ -46,11 +46,11 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923134158840",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI INXIDE",
+OWNER_NAME: process.env.OWNER_NAME || "ANONYMOUS INXIDE",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀",
+DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву ANONYMOUS м∂⎯꯭̽💀",
 // add bot desp name    
 LIVE_MSG: process.env.LIVE_MSG || "HEY IM ALIVE",
 // add alive msg here 
@@ -63,12 +63,12 @@ ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 ANTI_BOT: process.env.ANTI_BOT || "true",
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "on",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
@@ -78,13 +78,13 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923003588997",
+DEV: process.env.DEV || "923269950001",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DELETE: process.env.ANTI_DELETE || "false",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
