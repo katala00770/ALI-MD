@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~HJVBRRQD#C4AR_5UxWoL-1LXcm9_7fLkMXqVOZv0tlB6A5_SIeao",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~Ccd01IrL#y1fMlLVv4ROmxDxgplMDNhf-sMSSCQPU7nuc_yO6_yE",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
@@ -82,7 +82,7 @@ DEV: process.env.DEV || "923269950001",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-ANTI_DELETE: process.env.ANTI_DELETE || "false",
+ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
