@@ -10,13 +10,13 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "ALI-MD~HJVBRRQD#C4AR_5UxWoL-1LXcm9_7fLkMXqVOZv0tlB6A5_SIeao"
+      "value": "ALI-MD~Ccd01IrL#y1fMlLVv4ROmxDxgplMDNhf-sMSSCQPU7nuc_yO6_yE"
     },  
     
     
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
-      "required": false,
+      "required": true,
       "value": "𓆩ု᪳𝐀ɭANONYMOUS𝐌Ɗှ᪳𓆪"
     }, 
       
